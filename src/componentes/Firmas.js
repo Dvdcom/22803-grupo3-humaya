@@ -1,7 +1,7 @@
 const Firmas = () =>{
 
     return(
-        <div className='footer'>
+        <div className='firmas'>
             <hr/>
             <div className="contenedor-firmas">
             <img src="/img/git.png" className="log" alt="logo-github"/>

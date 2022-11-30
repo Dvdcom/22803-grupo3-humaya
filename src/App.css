@@ -16,24 +16,27 @@
   grid-template-rows: auto 1fr auto;
 }
 
+.Seccion{
+  display: flex;
+  height: calc(100vh/9);
+  width: 100%;
+  background-color: rgb(70, 81, 90,20%);
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-opcional);
+  font-style: italic;
+}
+
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
 
 .App-header {
   background-color: var(--color-principal);
   font-family: var(--fuente-principal);
-  min-height: 30px;
   display: flex;
-  flex-direction: row;
-  color: var(--color-secundario);
-  padding-left: 30px;
-  padding-top: 5px;  
+  flex-direction: column;
 }
 
-.App-header h1{
-  font-size: xx-small;
-  align-content: center;
-  align-self: center;
-}
 
 .App-logo {
   height: 2vmin;
@@ -55,13 +58,34 @@
   }
 }
 
+/******** COMPONENTE NAVEGACION : NOMBRE PERSONA *********/
+
+
 /* ------------------------- ESTILOS DE <MAIN> ------------------------------- */
 
+
+/******** COMPONENTE ENCABEZADO : NOMBRE PERSONA *********/
+
+/******** COMPONENTE SECCIONES : NOMBRE PERSONA *********/
+
+/******** COMPONENTE PRODUCTO PRINCIPAL : NOMBRE PERSONA *********/
+
+/******** COMPONENTE PRODUCTO SECUNDARIO : NOMBRE PERSONA *********/
+
+/******** COMPONENTE SECCION SECUNDARIA : NOMBRE PERSONA *********/
+
+/******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
+
+/******** COMPONENTE RECETAS : NOMBRE PERSONA *********/
 
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
 
-.footer{
+/******** COMPONENTE FOOTER : NOMBRE PERSONA *********/
+
+
+
+.firmas{
   color:var(--color-secundario)
 }
 .contenedor-firmas{
