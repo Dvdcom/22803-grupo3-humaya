@@ -1,19 +1,26 @@
-/* ------------------------- ROOT ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap');
+/* ---------------------------- ROOT --------------------- */
 :root{
   /* Paleta de colores : */
-  --color-principal:#282c34;
-  --color-secundario:#ffffff;
-  --color-terciario:#000000;
-  --color-opcional:#00aeff;
+  --color-principal:#63421E;
+  --color-secundario:#bca177;
+  --color-terciario:#D5AC8C;
+
+  --color-blanco:#ffffff;
+  --color-negro:#000000;
 }
+
+/* La fuente a utilizar es MONSERRAT con sus pesos: 100,200,300,400,600,700 */
+
 
 /* ---------------------------- ESTILOS DE <DIV> APP --------------------- */
 
 .App{
-  background-color: var(--color-principal);
+  background-color: var(--color-negro);
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .Seccion{
@@ -31,8 +38,7 @@
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
 
 .App-header {
-  background-color: var(--color-principal);
-  font-family: var(--fuente-principal);
+  background-color: var(--color-negro);
   display: flex;
   flex-direction: column;
 }
