@@ -10,30 +10,34 @@ import ProductoSecundario from './componentes/ProductoSecundario';
 import Recetas from './componentes/Recetas';
 import Secciones from './componentes/Secciones';
 import SeccionSecundaria from './componentes/SeccionSecundaria';
+import { UserProvider } from './aplication/UserProvider';
 
-/* RAMA DEVELOP */
+/* RAMA EXPERIMENT */
+/* Implementacion de provider , comunicacion entre componentes */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logito/>
-        <Navegacion />
-      </header>
-      <main>
-        <Encabezado/>
-        <Secciones />
-        <ProductoPrincipal />
-        <ProductoSecundario />
-        <SeccionSecundaria />
-        <FormContacto />
-        <Recetas />
-      </main>
-      <footer>
-        <Footer />
-        <Firmas/>
-      </footer>
-    </div>
+    <UserProvider>
+          <div className="App">
+            <header className="App-header">
+              <Logito/>
+              <Navegacion />
+            </header>
+            <main>
+              <Encabezado/>
+              <Secciones />
+              <ProductoPrincipal />
+              <ProductoSecundario />
+              <SeccionSecundaria />
+              <FormContacto />
+              <Recetas />
+            </main>
+            <footer>
+              <Footer />
+              <Firmas/>
+            </footer>
+          </div>
+    </UserProvider>
   );
 }
 
