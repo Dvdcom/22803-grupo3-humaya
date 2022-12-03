@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import PieDePagina from './componentes/PieDePagina';
 import Firmas from './componentes/Firmas';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
       </main>
       <footer>
+        <PieDePagina/>
         <Firmas/>
       </footer>
     </div>
