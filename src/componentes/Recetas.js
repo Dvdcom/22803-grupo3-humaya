@@ -39,7 +39,7 @@ const Recetas = () =>{
                 breakpoints={{
                     0:{
                         slidesPerView:1,
-                        spaceBetween:10,   
+                        spaceBetween:5,   
                     },
                     480:{
                         slidesPerView:2,

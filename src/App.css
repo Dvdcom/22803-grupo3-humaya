@@ -84,8 +84,11 @@
 
 /******** COMPONENTE RECETAS : DAVID GUTIERREZ *********/
 
-.carousel-inner{
-  display: flex;
+.carta{
+  height: 100px !important;
+  padding: 0px;
+  margin: 0px;
+  background-color:var(--color-negro) !important;
 }
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
