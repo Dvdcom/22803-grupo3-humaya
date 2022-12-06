@@ -9,16 +9,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<Login/>}>
-        </Route>
-      </Routes>
-      <Routes>
-        <Route path="/carrito" element={<Carrito/>}>
-        </Route>
-      </Routes>
-      <Routes>
-        <Route path="/" element={<Home/>}>
-        </Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/carrito" element={<Carrito/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
       </Routes>
     </Router>
   );
