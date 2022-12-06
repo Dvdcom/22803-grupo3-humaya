@@ -82,8 +82,11 @@
 
 /******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
 
-/******** COMPONENTE RECETAS : NOMBRE PERSONA *********/
+/******** COMPONENTE RECETAS : DAVID GUTIERREZ *********/
 
+.carousel-inner{
+  display: flex;
+}
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
 

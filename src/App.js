@@ -1,39 +1,26 @@
-import './App.css';
-import Logito from './componentes/Logito';
-import Firmas from './componentes/Firmas';
-import Encabezado from './componentes/Encabezado';
-import Footer from './componentes/Footer';
-import FormContacto from './componentes/FormContacto';
-import Navegacion from './componentes/Navegacion';
-import ProductoPrincipal from './componentes/ProductoPrincipal';
-import ProductoSecundario from './componentes/ProductoSecundario';
-import Recetas from './componentes/Recetas';
-import Secciones from './componentes/Secciones';
-import SeccionSecundaria from './componentes/SeccionSecundaria';
+import Home from "./rutas/Home";
+import Carrito from "./rutas/Carrito"
+import Login from "./rutas/Login"
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 /* RAMA DEVELOP */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logito/>
-        <Navegacion />
-      </header>
-      <main>
-        <Encabezado/>
-        <Secciones />
-        <ProductoPrincipal />
-        <ProductoSecundario />
-        <SeccionSecundaria />
-        <FormContacto />
-        <Recetas />
-      </main>
-      <footer>
-        <Footer />
-        <Firmas/>
-      </footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<Login/>}>
+        </Route>
+      </Routes>
+      <Routes>
+        <Route path="/carrito" element={<Carrito/>}>
+        </Route>
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Home/>}>
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

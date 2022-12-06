@@ -1,7 +1,8 @@
 const Recetas = () =>{
 
+    
     return(
-        <div className='Seccion' id='Recetas'>
+        <div className='Seccion' id='contenedor-recetas'>
             <h1>RECETAS</h1>
         </div>
     );
