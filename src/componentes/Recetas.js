@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide} from 'swiper/react';
-import { FreeMode } from "swiper";
+import { FreeMode, Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import ProductoCard from "./ProductoCard";
@@ -30,11 +30,14 @@ const Recetas = () =>{
 
     return(
         <div className='Seccion' id='contenedor-recetas'>
-            <div className='container py-4 px-4 justify-content-center'>
+            <div className='container h-100 px-1 justify-content-center'>
                 <Swiper
                 freeMode={true}
                 grabCursor={true}
-                modules={[FreeMode]}
+                pagination={{
+                    clickable:true,
+                }}
+                modules={[FreeMode,Pagination]}
                 className="mySwiper"
                 breakpoints={{
                     0:{
