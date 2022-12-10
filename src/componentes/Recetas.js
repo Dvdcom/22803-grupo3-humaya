@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import ProductoCard from "./ProductoCard";
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+/* import 'bootstrap/dist/css/bootstrap.min.css' */
 
 const Recetas = () =>{
 
@@ -30,7 +30,7 @@ const Recetas = () =>{
 
     return(
         <div className='Seccion' id='contenedor-recetas'>
-            <div className='container h-100 px-1 justify-content-center'>
+            <div className='swiper-container'>
                 <Swiper
                 freeMode={true}
                 grabCursor={true}
@@ -45,21 +45,21 @@ const Recetas = () =>{
                         spaceBetween:5,   
                     },
                     480:{
-                        slidesPerView:2,
+                        slidesPerView:1,
                         spaceBetween:10,   
                     },
                     768:{
-                        slidesPerView:3,
+                        slidesPerView:1,
                         spaceBetween:10,   
                     },
                     1280:{
-                        slidesPerView:5,
+                        slidesPerView:2,
                         spaceBetween:10,   
                     },
                 }}
                 >
                     {recetas.map((element,index)=>(
-                        <SwiperSlide key={index}>
+                        <SwiperSlide key={index} className="mx-5">
                             <ProductoCard data={{imgSrc:element.imagen,titulo:element.nombre,descripcion: element.descripcion,urlReceta:element.url_receta}}/>
                         </SwiperSlide>
                     ))}
