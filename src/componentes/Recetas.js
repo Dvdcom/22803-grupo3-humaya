@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide} from 'swiper/react';
 import { FreeMode, Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/free-mode';
+import "swiper/css/pagination";
 import ProductoCard from "./ProductoCard";
 
 /* import 'bootstrap/dist/css/bootstrap.min.css' */
@@ -52,7 +53,7 @@ const Recetas = () =>{
                         slidesPerView:1,
                         spaceBetween:10,   
                     },
-                    1280:{
+                    1328:{
                         slidesPerView:2,
                         spaceBetween:10,   
                     },
