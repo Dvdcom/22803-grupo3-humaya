@@ -18,6 +18,9 @@
 .App{
   background-color: var(--color-negro);
   display: grid;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   font-family: 'Montserrat', sans-serif;
@@ -26,12 +29,15 @@
 .Seccion{
   display: flex;
   height: calc(100vh/9);
-  width: 100%;
+  width: 100vw;
   background-color: rgb(70, 81, 90,20%);
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   color: var(--color-opcional);
+}
+.App-main{
+  width: 100%;
 }
 
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
@@ -85,10 +91,7 @@
 
 #contenedor-recetas{
     width: 100vw;
-    height: 300px;
-    display: flex;
-    justify-content:center;
-    align-items: center !important;
+    height: 350px;
 }
 
 .swiper-container {
@@ -97,7 +100,9 @@
   margin: 0px;
   padding-left: 50px;
   padding-right: 50px;
+  display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -107,12 +112,10 @@
   background-color:var(--color-principal);
   display: flex;
   flex-direction: row;
-  width: 700px;
+  max-width: 700px;
   border-radius: 0px;
   border: 0px;
 }
-
-
 
 .bodyCard{
   width: 300px;
@@ -176,12 +179,51 @@
   box-shadow: 1px 2px 1px var(--color-terciario);
 }
 
+.swiper-wrapper{
+  padding-bottom: 40px;
+  margin: 0px;
+}
+.swiper-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 0px !important;
+  margin: 0px;
+}
+
+/* sobre modal */
+.modal-content{
+  border-radius: 0px !important;
+  border: 0px;
+  background-color: var(--color-principal);
+  color: var(--color-blanco);
+  border: 1px solid var(--color-blanco);
+}
+.modal-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+}
+.modal-detalle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
 
 /******** COMPONENTE FOOTER : NOMBRE PERSONA *********/
 
-
+.footer{
+  width: 100vw;
+}
 
 .firmas{
   color:var(--color-secundario)

@@ -19,7 +19,7 @@ const Home = () =>{
                 <Logito/>
                 <Navegacion />
             </header>
-            <main>
+            <main className='App-main'>
                 <Encabezado/>
                 <Secciones />
                 <ProductoPrincipal />
@@ -28,7 +28,7 @@ const Home = () =>{
                 <FormContacto />
                 <Recetas />
             </main>
-            <footer>
+            <footer className='footer'>
                 <Footer />
                 <Firmas/>
             </footer>

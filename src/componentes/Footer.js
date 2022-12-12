@@ -34,7 +34,7 @@ const Footer = () =>{
                     <h5 className="fw-light titulo-footer">UBICACION</h5>
                     <ul className="list-unstyled text-small lh-lg">
                         <li className="mb-1"><a className="link-secondary text-light fw-bold text-decoration-none" href="/#">Capital Federal, Buenos Aires</a></li>
-                        <iframe style={{width: '200px', height:'100px'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.19122892621!2d-58.41253800906745!3d-34.597234739151354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1670082294662!5m2!1ses!2sar"/>
+                        <iframe title="myFrame" style={{width: '200px', height:'100px'}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26274.19122892621!2d-58.41253800906745!3d-34.597234739151354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1670082294662!5m2!1ses!2sar"/>
                     </ul>
                 </div>
             </div>

@@ -34,36 +34,40 @@ const Recetas = () =>{
             <div className='swiper-container'>
                 <Swiper
                 freeMode={true}
-                grabCursor={true}
+                slidesOffsetAfter= {0}
                 pagination={{
                     clickable:true,
                 }}
                 modules={[FreeMode,Pagination]}
                 className="mySwiper"
-                breakpoints={{
-                    0:{
-                        slidesPerView:1,
-                        spaceBetween:5,   
+                breakpoints= {{
+                    "@0.00": {
+                    slidesPerGroup:1,
+                    slidesPerView: 1,
+                    spaceBetween: 5
                     },
-                    480:{
-                        slidesPerView:1,
-                        spaceBetween:10,   
-                    },
-                    768:{
-                        slidesPerView:1,
-                        spaceBetween:10,   
-                    },
-                    1328:{
-                        slidesPerView:2,
-                        spaceBetween:10,   
-                    },
+                    "1520": {
+                        slidesPerGroup:2,
+                        slidesPerView: 2,
+                        spaceBetween: 5
+                        }
+                }}
+                style={{
+                    "--swiper-pagination-color": "#63421E",
+                    "--swiper-pagination-bullet-inactive-color": "#bca177",
+                    "--swiper-pagination-bullet-inactive-opacity": "1",
+                    "--swiper-pagination-bullet-size": "10px",
+                    "--swiper-pagination-bullet-horizontal-gap": "3px"
                 }}
                 >
-                    {recetas.map((element,index)=>(
-                        <SwiperSlide key={index} className="mx-5">
-                            <ProductoCard data={{imgSrc:element.imagen,titulo:element.nombre,descripcion: element.descripcion,urlReceta:element.url_receta}}/>
+                <div className="swiper-wrapper">
+                        {recetas.map((element,index)=>(
+                        <SwiperSlide key={index} className="mx-1 d-flex justify-content-center" style={{overflow:"hidden"}}>
+                        <ProductoCard data={{imgSrc:element.imagen,titulo:element.nombre,descripcion: element.descripcion,urlReceta:element.url_receta,url_video:element.video}}/>
                         </SwiperSlide>
-                    ))}
+                        ))}
+                    </div>
+                    <div className="swiper-pagination"></div>
                     
                 </Swiper>
             </div>
