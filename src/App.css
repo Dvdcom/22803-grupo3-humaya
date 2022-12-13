@@ -198,23 +198,42 @@
 
 /* sobre modal */
 .modal-content{
+  min-width: 600px;
   border-radius: 0px !important;
   border: 0px;
   background-color: var(--color-principal);
   color: var(--color-blanco);
-  border: 1px solid var(--color-blanco);
+  border: 10px solid rgba(211, 170, 93, 0.233);
 }
 .modal-body{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding: 0px;
 }
 .modal-detalle{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-between;
   font-size: 0.8rem;
+
+}
+.modal-body-superior{
+  display: flex;
+  flex-direction: row;
+}
+.modal-video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.modal-video h5{
+  font-weight: 200;
+}
+#iframe{
+  width: 90%;
 }
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */

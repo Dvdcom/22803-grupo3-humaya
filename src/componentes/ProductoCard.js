@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import {Card,Button,CardImg,Modal} from 'react-bootstrap';
 
 function MyVerticallyCenteredModal(props) {
+
     return (
     <Modal
         {...props}
@@ -17,16 +18,22 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <img src={props.img} alt="img-receta" style={{width:'250px'}}></img>
-            <div className="modal-detalle">
-                <p className="p-3">
-                {props.detalle}
-                </p>
-                <div className="btnCardContenedor">
-                <Button className="btnCard"><a className="text-decoration-none text-reset" href={props.url} target="_blank" rel="noreferrer noopener">ir a receta</a></Button>
-                <Button className="btnCard">Descargar</Button>
+            <div className="modal-body-superior">
+                <img src={props.img} alt="img-receta" style={{width:'350px'}}></img>
+                <div className="modal-detalle">
+                    <p className="p-3">
+                    {props.detalle}
+                    </p>
+                    <div className="btnCardContenedor">
+                    <Button className="btnCard"><a className="text-decoration-none text-reset" href={props.url} target="_blank" rel="noreferrer noopener">En Web</a></Button>
+                    <Button className="btnCard">Descargar</Button>
+                    </div>
                 </div>
-            </div>      
+            </div>
+            <div className="modal-video">
+            <h5>Para mas informacíon, mira el video:</h5>
+            <iframe id='iframe' src={props.video} height='300' title='YouTube video player' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+            </div>
         </Modal.Body>
         <Modal.Footer>
             <Button className="btnCard" onClick={props.onHide}>Close</Button>
