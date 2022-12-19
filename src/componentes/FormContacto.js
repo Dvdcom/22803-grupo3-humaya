@@ -3,13 +3,11 @@ import Image from 'react-bootstrap/Image'
 import { useForm } from 'react-hook-form';
 
 // Un formulario controlado maneja los valores de los inputs en el state y lo actualiza de acuerdo a los eventos del mismo usando setState.
-// Aquí se trabaja un formulario con react hook form
+// Aquí se trabaja un formulario con react hook form: librería externa
 
 const FormContacto = () =>{
 
-    const {register, handleSubmit, formState: {errors}} = useForm();
-    
-    
+    const {register, handleSubmit, formState: {errors}} = useForm();  
 
     return(
         <div className='container' id='FormContacto'>
@@ -36,7 +34,7 @@ const FormContacto = () =>{
                   <input 
                     type="email" 
                     className="form-control" 
-                    {...register('email', { pattern: /^\S+@\S+$/i })      
+                    {...register('email', { pattern: /^\S+@\S+$/i })   //validación del email usando una RegEx   
                     }/>
                     {errors.email && <p>El formato de email no es correcto</p>}
                 </div>
