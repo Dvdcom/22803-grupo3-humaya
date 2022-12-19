@@ -1,32 +1,54 @@
+import Image from 'react-bootstrap/Image'
 
+import { useForm } from 'react-hook-form';
 
+// Un formulario controlado maneja los valores de los inputs en el state y lo actualiza de acuerdo a los eventos del mismo usando setState.
+// Aquí se trabaja un formulario con react hook form
 
 const FormContacto = () =>{
+
+    const {register, handleSubmit, formState: {errors}} = useForm();
+    
+    
 
     return(
         <div className='container' id='FormContacto'>
 
         <div class="row">
         <div class="img col-md-5 p-0">
-            <img class="img-fluid img-responsive w-100 h-100" src="https://i.postimg.cc/76MQ1Sdg/contacto.png" alt="alfajores"/>
+            <Image className="img-fluid img-responsive w-100 h-100" src="https://i.postimg.cc/76MQ1Sdg/contacto.png" alt="alfajores"/>
         </div>
         <div class="texto-form form col-md-7">
             <p class="form form-group pt-5">Dejanos tu consulta y nos pondremos en contacto a la brevedad: </p>
-            <form>
-                <div class="form-group my-2">
-                    <label class="my-3" for="text-name">NOMBRE:</label>
-                    <input type="text" class="form-control" id="text-name"/>
+            <form onSubmit={handleSubmit((data)=> console.log(data))}>
+                <div className="form-group my-2">
+                    <label className="my-3">NOMBRE:</label>
+                    <input 
+                        type="text" 
+                        className="form-control" 
+                        id='text-name'
+                        {...register('nombre', { required:true }) //decimos que este campo es obligatorio      
+                        }/>
+                        {errors.nombre && <p>Este campo es obligatorio</p>}
                 </div>
-                <div class="form-group my-2">
-                  <label class="my-3" for="text-email">E-MAIL:</label>
-                  <input type="email" class="form-control" id="text-email" aria-describedby="emailHelp"/>
+                <div className="form-group my-2">
+                  <label className="my-3" for="text-email">E-MAIL:</label>
+                  <input 
+                    type="email" 
+                    className="form-control" 
+                    {...register('email', { pattern: /^\S+@\S+$/i })      
+                    }/>
+                    {errors.email && <p>El formato de email no es correcto</p>}
                 </div>
                 <div class="form-group my-2">
                     <label class="my-3" for="text-textarea" className="form-label">CONSULTA:</label>
-                    <textarea class="form-control" id="text-textarea" rows="5"></textarea>
+                    <textarea as='textarea' className="form-control" id="text-textarea" rows={5} cols={50}></textarea>
                 </div>
-                <div className="d-flex contenedor-btn-form">
-                    <button type="submit" class="btnCard btnForm my-5 btn text-light ">Enviar</button>
+                <div className="d-flex  contenedor-btn-form">
+                    <button 
+                    type="submit" 
+                    className="btnCard btnForm my-5 btn text-light"
+                    >Enviar</button>
                 </div>
               </form>
         </div> 
