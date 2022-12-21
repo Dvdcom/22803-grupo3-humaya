@@ -15,8 +15,6 @@ const Firmas = () =>{
                 <img src="/img/git.png" className="log" alt="logo-github"/>
                 <a href="https://github.com/Dvdcom" className="links"><p className="nombres">David Gutierrez</p></a>
                 <img src="/img/git.png" className="log" alt="logo-github"/>
-                <a href="https://github.com/Fragusan" className="links"><p className="nombres">Franco Sánchez</p></a>
-                <img src="/img/git.png" className="log" alt="logo-github"/>
                 <a href="https://github.com/sofiamfernandez" className="links"><p className="nombres">Sofia Fernandez</p></a>
                 <img src="/img/git.png" className="log" alt="logo-github"/>
                 <a href="https://github.com/Fedealtrui" className="links"><p className="nombres">Federico Altrui</p></a>
