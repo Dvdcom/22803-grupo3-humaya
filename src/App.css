@@ -5,6 +5,7 @@
   --color-principal:#63421E;
   --color-secundario:#bca177;
   --color-terciario:#D5AC8C;
+  
 
   --color-blanco:#ffffff;
   --color-negro:#000000;
@@ -85,8 +86,46 @@
 
 /******** COMPONENTE SECCION SECUNDARIA : NOMBRE PERSONA *********/
 
-/******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
+/******** COMPONENTE FORMULARIO CONTACTO : SOFIA FERNANDEZ *********/
 
+.form-group {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.form {
+  background-color: rgb(248, 250, 252);
+}
+.form p {
+  color: var(--color-principal);
+
+}
+#text-name{
+  color:rgb(248, 250, 252);
+} 
+label {
+  color:var(--color-principal);
+}
+
+.form-control {
+  background-color:var(--color-principal);
+  border-radius: 0%;
+  color:rgb(248, 250, 252);
+}
+.form-control:active,
+.form-control:focus {
+  background-color:  rgba(40, 38, 38, 0.9); 
+  color:rgb(248, 250, 252);
+}
+.contenedor-btn-form {
+  align-items: center;
+  justify-content: center;
+}
+.btnForm {
+  background-color: rgb(248, 250, 252) !important;
+  border: 1px solid var(--color-principal) !important;
+  color: var(--color-principal) !important;
+  
+}
 /******** COMPONENTE RECETAS : DAVID GUTIERREZ *********/
 
 #contenedor-recetas{
@@ -270,3 +309,27 @@
   text-decoration: none;
   color: var(--color-secundario);
 }
+
+/******BREAKPOINT MAX-WIDTH BOOTSTRAP *******/
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .btnForm {
+      width: 220px ;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
