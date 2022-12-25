@@ -1,7 +1,7 @@
 const ProductoSecundario = () =>{
 
     return(
-        <div className='Seccion' id='ProductoSecundario'>
+        <div className='Seccion Seccion-fondo' id='ProductoSecundario'>
             <h1>PRODUCTO SECUNDARIO</h1>
         </div>
     );

@@ -31,12 +31,16 @@
   display: flex;
   height: calc(100vh/9);
   width: 100vw;
-  background-color: rgb(70, 81, 90,20%);
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   color: var(--color-opcional);
 }
+
+.Seccion-fondo{
+  background-color: rgb(70, 81, 90,20%);
+}
+
 .App-main{
   width: 100%;
 }

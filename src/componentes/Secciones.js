@@ -1,7 +1,7 @@
 const Secciones = () =>{
 
     return(
-        <div className='Seccion' id='Secciones'>
+        <div className='Seccion Seccion-fondo' id='Secciones'>
             <h1>SECCIONES</h1>
         </div>
     );
