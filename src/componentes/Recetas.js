@@ -6,30 +6,40 @@ import 'swiper/css/free-mode';
 import "swiper/css/pagination";
 import ProductoCard from "./ProductoCard";
 
-/* import 'bootstrap/dist/css/bootstrap.min.css' */
+/* para este componente se implemento swiper: https://swiperjs.com/ */
 
 const Recetas = () =>{
 
+    /* declaro mis hooks de estado */
     const [recetas, setRecetas] = useState([]);
 
+    /* aplico useEffect para que la descarga de recetas se realice solo la primera ves  */
     useEffect(() => {
         DescargarRecetas();
     }, [])
 
+    /* creo mi funcion para descargar las recetas */
     const DescargarRecetas = async() => {
 
+        /* Aplico un try-catch para la informacion de descarga */
         try {
             const data = await fetch('https://apirestrecetas.netlify.app/.netlify/functions/api/')
             const dataJson = await data.json();
+            /* seteleo recetas y le paso todo el objeto json */
             setRecetas(dataJson);
         }
         catch (error) {
             console.log('hubo un error: ' + error.message);
         }
-    
     }
 
+    /* retorno el componente creando un swiper con toda la informacion del estado recetas */
+
     return(
+        <>
+        <div className="text-center p-4">
+            <h2 style={{color:"white"}}>Recetas</h2>
+        </div>
         <div className='Seccion' id='contenedor-recetas'>
             <div className='swiper-container'>
                 <Swiper
@@ -72,6 +82,8 @@ const Recetas = () =>{
                 </Swiper>
             </div>
         </div>
+        </>
+
     );
 }
     
