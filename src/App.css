@@ -204,6 +204,7 @@ label {
   justify-content:space-around;
   padding: 15px;
 }
+
 .btnCard{
   display: flex;
   justify-content: center;
@@ -278,6 +279,77 @@ label {
 }
 #iframe{
   width: 90%;
+}
+
+@media (max-width: 790px) {
+
+  #contenedor-recetas{
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+
+  /* paginacion */
+  .swiper-pagination{
+    display: none;
+  }
+
+  /*carta*/
+  .carta{
+    padding: 0px;
+    margin: 0px;
+    background-color:var(--color-principal);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    border-radius: 0px;
+    border: 0px;
+  }
+
+  .bodyCard{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--color-principal) !important;
+
+  }
+  .imgCard{
+    width: 100%;
+    position: relative;
+  }
+  #imgCard{
+    width: 100%;
+    position: relative;
+  }
+  .textoDescripcion{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .textBodyCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color:rgb(213, 172, 140,70%);
+    border-radius: 15px;
+  }
+  .textBodyTitulo{
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
