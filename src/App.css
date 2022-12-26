@@ -13,6 +13,10 @@
 
 /* La fuente a utilizar es MONSERRAT con sus pesos: 100,200,300,400,600,700 */
 
+.titulos{
+  font-size: 40px;
+}
+
 
 /* ---------------------------- ESTILOS DE <DIV> APP --------------------- */
 
