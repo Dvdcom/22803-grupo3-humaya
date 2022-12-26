@@ -32,6 +32,7 @@
   height: calc(100vh/9);
   width: 100vw;
   margin-bottom: 10px;
+  margin: 0px;
   justify-content: center;
   align-items: center;
   color: var(--color-opcional);
@@ -43,6 +44,7 @@
 
 .App-main{
   width: 100%;
+  margin: 0px;
 }
 
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
@@ -281,11 +283,27 @@ label {
   width: 90%;
 }
 
+/* ------ MEDIA QUERY -----*/
+
 @media (max-width: 790px) {
 
   #contenedor-recetas{
+    width: 100vw;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
     margin-top: 70px;
     margin-bottom: 20px;
+}
+
+  .swiper-container {
+    width: 100% !important;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
   }
 
   /* paginacion */
@@ -349,6 +367,42 @@ label {
     padding: 15px;
     justify-content: center;
     align-items: center;
+  }
+
+  /*sobre modal*/
+
+  .modal-video{
+    display: none;
+  }
+
+  .modal-90w{
+    max-width: none !important;
+    width: 90%;
+}
+
+  .modal-body-superior{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .modal-content{
+    border-radius: 0px !important;
+    border: 0px;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: 10px solid rgba(211, 170, 93, 0.233);
+  }
+  .modal-detalle{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-between;
+    font-size: 0.9rem;
+    font-weight: 100;
+  
   }
 }
 
