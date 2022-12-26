@@ -13,12 +13,12 @@ const FormContacto = () => {
         <div className="text-center p-4">
             <h2 style={{color:"white"}}>Contacto</h2>
         </div>
-            <div class="row">
-                <div class="img col-md-5 p-0">
+            <div className="row">
+                <div className="img col-md-5 p-0">
                     <Image className="img-fluid img-responsive w-100 h-100" src="https://i.postimg.cc/76MQ1Sdg/contacto.png" alt="alfajores" />
                 </div>
-                <div class="texto-form form col-md-7">
-                    <p class="form form-group pt-5">Dejanos tu consulta y nos pondremos en contacto a la brevedad: </p>
+                <div className="texto-form form col-md-7">
+                    <p className="form form-group pt-5">Dejanos tu consulta y nos pondremos en contacto a la brevedad: </p>
                     <form onSubmit={handleSubmit((data) => console.log(data))}>
                         <div className="form-group my-2">
                             <label className="my-3">NOMBRE:</label>
@@ -31,7 +31,7 @@ const FormContacto = () => {
                             {errors.nombre && <p>Este campo es obligatorio</p>}
                         </div>
                         <div className="form-group my-2">
-                            <label className="my-3" for="text-email">E-MAIL:</label>
+                            <label className="my-3" htmlFor="text-email">E-MAIL:</label>
                             <input
                                 type="email"
                                 className="form-control"
@@ -39,11 +39,11 @@ const FormContacto = () => {
                                 } />
                             {errors.email && <p>El formato de email no es correcto</p>}
                         </div>
-                        <div class="form-group my-2">
-                            <label class="my-3" for="text-textarea" className="form-label">CONSULTA:</label>
-                            <textarea as='textarea' className="form-control" id="text-textarea" rows={5} cols={50}></textarea>
+                        <div className="form-group my-2">
+                            <label className="form-label my-3" htmlFor="text-textarea">CONSULTA:</label>
+                            <textarea className="form-control" id="text-textarea" rows={5} cols={50}></textarea>
                         </div>
-                        <div className="d-flex  contenedor-btn-form">
+                        <div className="d-flex contenedor-btn-form">
                             <button
                                 type="submit"
                                 className="btnCard btnForm my-5 btn text-light"
