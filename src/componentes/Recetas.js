@@ -37,7 +37,7 @@ const Recetas = () => {
 
     return (
         <>
-            <div className="text-center p-4">
+            <div className="text-center p-3">
                 <h2 style={{ color: "white" }}>Recetas</h2>
             </div>
             <div className='Seccion' id='contenedor-recetas'>
