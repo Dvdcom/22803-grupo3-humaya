@@ -11,7 +11,7 @@ const Footer = () =>{
 
             {/* Menu */}
                 <div className="col-6 col-md-2">
-                    <h5 className="fw-light titulo-footer">MENU</h5>
+                    <h5 className="fw-light titulo-footer">MENUUU</h5>
                     <ul className="list-unstyled text-small lh-lg">
                         <li className="mb-1"><a className="link-secondary text-light fw-bold text-decoration-none" href="/#">Home</a></li>
                         <li className="mb-1"><a className="link-secondary text-light fw-bold text-decoration-none" href="/#">Productos</a></li>
@@ -21,7 +21,7 @@ const Footer = () =>{
 
             {/* Navegacion */}
                 <div className="col-6 col-md-3">
-                    <h5 className="fw-light titulo-footer">NAVEGACION</h5>
+                    <h5 className="fw-light titulo-footer">NAVEGACIOON</h5>
                     <ul className="list-unstyled text-small lh-lg">
                         <li className="mb-1"><a className="link-secondary text-light fw-bold text-decoration-none" href="/#">Preguntas frecuentes</a></li>
                         <li className="mb-1"><a className="link-secondary text-light fw-bold text-decoration-none" href="/#">Distribuidores</a></li>
