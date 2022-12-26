@@ -90,7 +90,11 @@
 
 /******** COMPONENTE PRODUCTO SECUNDARIO : NOMBRE PERSONA *********/
 
-/******** COMPONENTE SECCION SECUNDARIA : NOMBRE PERSONA *********/
+/******** COMPONENTE SECCION SECUNDARIA : Gisela Colmeiro *********/
+
+.calidadiso img{
+  margin-left: 33%;
+}
 
 /******** COMPONENTE FORMULARIO CONTACTO : SOFIA FERNANDEZ *********/
 
@@ -408,15 +412,22 @@ label {
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
 
-/******** COMPONENTE FOOTER : NOMBRE PERSONA *********/
+/******** COMPONENTE FOOTER : Gisela Colmeiro *********/
 
-.footer{
-  width: 100vw;
+/*Footer*/
+#footer{
+  color: var(--color-secundario)
 }
 
-.firmas{
-  color:var(--color-secundario)
+#footer h5{
+  color: var(--color-titulos)
 }
+
+#footer img{
+  margin-top: 40px;
+}
+
+/* Firmas */
 .contenedor-firmas{
   display: flex;
   flex-direction: row;
@@ -433,11 +444,29 @@ label {
   margin-right: 5px;  
   align-content: center;
   align-self: center;
-
 }
+
 .links{
   text-decoration: none;
   color: var(--color-secundario);
+}
+
+a {
+  position: relative;
+}
+ 
+.img-mostrar {
+  position: absolute;
+  border-radius: 10%;
+  border: 2px solid #000000;
+  bottom: 100%;
+  right: 5%;
+  width: 70px;
+  display: none;
+}
+ 
+a:hover .img-mostrar {
+  display: block;
 }
 
 /******BREAKPOINT MAX-WIDTH BOOTSTRAP *******/

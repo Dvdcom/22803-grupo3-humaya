@@ -38,7 +38,7 @@ const Recetas = () => {
     return (
         <>
             <div className="text-center p-3">
-                <h2 style={{ color: "white" }}>Recetas</h2>
+                <h2 style={{ color: "white" }} className="p-3 mb-0 text-center fw-bold text-light titulos animate__animated animate__pulse">Recetas</h2>
             </div>
             <div className='Seccion' id='contenedor-recetas'>
                 <div className='swiper-container'>

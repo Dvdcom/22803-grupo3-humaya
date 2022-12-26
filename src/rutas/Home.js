@@ -1,5 +1,4 @@
 import '../App.css';
-import Logito from '../componentes/Logito';
 import Firmas from '../componentes/Firmas';
 import Encabezado from '../componentes/Encabezado';
 import Footer from '../componentes/Footer';
@@ -16,7 +15,6 @@ const Home = () =>{
     return(
         <div className="App">
             <header className="App-header">
-                <Logito/>
                 <Navegacion />
             </header>
             <main className='App-main'>
