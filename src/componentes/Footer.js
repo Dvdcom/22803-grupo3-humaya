@@ -34,9 +34,9 @@ const Footer = () =>{
                 <div className="col-6 col-md-2 redes">
                         <h5 className="text-brown-light fw-light titulo-footer">REDES</h5>
                         <ul className="list-unstyled text-small lh-lg md-4">
-                            <li className="mb-4"><a className="md-5 link-secondary text-light fw-bold" href="#"><i className="fa-brands fa-instagram fa-2xl"></i></a></li>
-                            <li className="mb-4"><a className="link-secondary text-light fw-bold" href="#"><i className="fa-brands fa-facebook-f fa-2xl"></i></a></li>
-                            <li className="mb-4"><a className="link-secondary text-light fw-bold" href="#"><i className="fa-brands fa-tiktok fa-2xl"></i></a></li>
+                            <li className="mb-4"><a className="md-5 link-secondary text-light fw-bold" href="/#"><i className="fa-brands fa-instagram fa-2xl"></i></a></li>
+                            <li className="mb-4"><a className="link-secondary text-light fw-bold" href="/#"><i className="fa-brands fa-facebook-f fa-2xl"></i></a></li>
+                            <li className="mb-4"><a className="link-secondary text-light fw-bold" href="/#"><i className="fa-brands fa-tiktok fa-2xl"></i></a></li>
                         </ul>
                     </div>
 
