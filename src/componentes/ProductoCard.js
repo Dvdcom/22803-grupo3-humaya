@@ -1,8 +1,23 @@
 /* import 'bootstrap/dist/css/bootstrap.min.css'; */
+import html2canvas from "html2canvas";
 import React, { useState } from "react";
-import {Card,Button,CardImg,Modal} from 'react-bootstrap';
+import {Card,Button,CardImg,Modal,Figure} from 'react-bootstrap';
 
 function MyVerticallyCenteredModal(props) {
+
+    const descargar = (arg) => {
+        let descargable = document.querySelector('#descargable');
+        descargable.classList.remove('d-none');
+        
+        html2canvas(document.querySelector('#descargable'),{ allowTaint: true, useCORS: true, backgroundColor: "rgba(0,0,0,0)", removeContainer: true, x: 0, y: 0}).then(function(canvas){
+            let img = canvas.toDataURL('Receta/jpg');
+            let link = document.createElement('a');
+            link.download = arg + '.jpg';
+            link.href = img;
+            link.click();
+        });
+        descargable.classList.add('d-none');
+    }
 
     return (
     <Modal
@@ -22,12 +37,15 @@ function MyVerticallyCenteredModal(props) {
             <div className="modal-body-superior">
                 <img src={props.img} alt="img-receta" style={{width:'350px'}}></img>
                 <div className="modal-detalle">
-                    <p className="p-3">
-                    {props.detalle}
-                    </p>
+                        <p className="p-3">
+                            {props.detalle}
+                        </p>
+                    <div id="descargable" className="d-none">
+                        <Figure.Image src={props.receta} alt="receta"></Figure.Image>
+                    </div>
                     <div className="btnCardContenedor">
                     <Button className="btnCard"><a className="text-decoration-none text-reset" href={props.url} target="_blank" rel="noreferrer noopener">En Web</a></Button>
-                    <Button className="btnCard">Descargar</Button>
+                    <Button className="btnCard" onClick={() => descargar(`${props.title}`)}>Descargar</Button>
                     </div>
                 </div>
             </div>
@@ -44,12 +62,12 @@ function MyVerticallyCenteredModal(props) {
 }
 
 const ProductoCard = props => {
-    let {imgSrc,titulo, descripcion, urlReceta,url_video} = props.data;
+    let {imgSrc,titulo, descripcion, urlReceta,receta,url_video} = props.data;
     const [modalShow, setModalShow] = useState(false);
     const [tempData,setTempdata] = useState([]);
 
-    const pasarInfo = (img, title, detalle,url,video) => {
-        let tempData = [img, title, detalle,url,video];
+    const pasarInfo = (img, title, detalle,url,receta,video) => {
+        let tempData = [img, title, detalle,url,receta,video];
         setTempdata(item => [1, ...tempData]);
         return setModalShow(true);
     }
@@ -65,7 +83,7 @@ const ProductoCard = props => {
                     <Card.Title className='textBodyTitulo text-uppercase fw-bold'>{titulo}</Card.Title>
                     <Card.Text className='textBodyCard'><span className='textoDescripcion'>{descripcion}</span></Card.Text>
                     <div className='btnCardContenedor'>
-                    <Button className='btnCard' onClick={() => pasarInfo(imgSrc,titulo,descripcion,urlReceta,url_video)}>Mostrar</Button>
+                    <Button className='btnCard' onClick={() => pasarInfo(imgSrc,titulo,descripcion,urlReceta,receta,url_video)}>Mostrar</Button>
                     </div>
                 </Card.Body>
 
@@ -77,7 +95,8 @@ const ProductoCard = props => {
                 title={tempData[2]}
                 detalle={tempData[3]}
                 url={tempData[4]}
-                video={tempData[5]}
+                receta={tempData[5]}
+                video={tempData[6]}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             /> : ''}

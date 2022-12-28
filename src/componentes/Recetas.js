@@ -73,7 +73,7 @@ const Recetas = () => {
                         <div className="swiper-wrapper">
                             {recetas.map((element, index) => (
                                 <SwiperSlide key={index} className="mx-1 d-flex justify-content-center" style={{ overflow: "hidden" }}>
-                                    <ProductoCard data={{ imgSrc: element.imagen, titulo: element.nombre, descripcion: element.descripcion, urlReceta: element.url_receta, url_video: element.video }} />
+                                    <ProductoCard data={{ imgSrc: element.imagen, titulo: element.nombre, descripcion: element.descripcion, urlReceta: element.url_receta,receta : element.receta, url_video: element.video }} />
                                 </SwiperSlide>
                             ))}
                         </div>
