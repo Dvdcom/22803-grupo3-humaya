@@ -9,6 +9,7 @@ import ProductoSecundario from '../componentes/ProductoSecundario';
 import Recetas from '../componentes/Recetas';
 import Secciones from '../componentes/Secciones';
 import SeccionSecundaria from '../componentes/SeccionSecundaria';
+import { Separador } from '../componentes/Separador';
 
 const Home = () =>{
 
@@ -19,6 +20,7 @@ const Home = () =>{
             </header>
             <main className='App-main'>
                 <Encabezado/>
+                <Separador/>
                 <Secciones />
                 <ProductoPrincipal />
                 <ProductoSecundario />
