@@ -22,8 +22,8 @@ const Encabezado = () =>{
             <div className="card mt-0 mx-2 pt-4 fondoTransparente inicio">
                 <div className="card-body align-items-center my-auto mt-5 container-text">
                     <h5 className="card-title text-white tituloPresentacion">DULCES DEL ALMA</h5>
-                    <p className="card-text mt-3 section-desktop">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
-                    <button href="#" type="button" className="btn btn-dark d-grid gap-2 col-8 mx-auto mt-4" id="btn-presentacion">CONOCENOS</button>
+                    <p className="card-text mt-3 text-white">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+                    <button href="/#" type="button" className="btn d-grid gap-2 col-8 mx-auto mt-4" id="btn-presentacion">CONOCENOS</button>
                 </div>
             </div>
         </div>
