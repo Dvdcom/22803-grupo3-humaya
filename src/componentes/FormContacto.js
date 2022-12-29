@@ -56,4 +56,4 @@ const FormContacto = () => {
     );
 }
     
-    export default FormContacto;
+export default FormContacto;
