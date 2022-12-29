@@ -257,6 +257,9 @@
 }
 
 /******** COMPONENTE FORMULARIO CONTACTO : Sofia Fernandez *********/
+.contenedor-form{
+  height: 500px;
+}
 .form-group {
   padding-left: 20%;
   padding-right: 20%;
