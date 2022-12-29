@@ -240,8 +240,11 @@
 
 /******** COMPONENTE SECCION SECUNDARIA : Gisela Colmeiro *********/
 
-.calidadiso img{
-  margin-left: 33%;
+#SeccionSecundaria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /******** COMPONENTE FORMULARIO CONTACTO : Sofia Fernandez *********/
