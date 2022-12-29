@@ -13,7 +13,6 @@ const Encabezado = () =>{
         position: 'center',
         confirmButtonText: "Comprar",
         confirmButtonColor: "#63421e",
-        borderButtonColor: "rgba(188, 161, 119, 0.233)",
         background:"#63421e",
         color:'White',
     });
