@@ -1,5 +1,6 @@
 import Swal from 'sweetalert2'
 
+//Se utilizo la función Sweet Alert para crear un aviso del producto con descuento"
 const Encabezado = () =>{
 
     Swal.fire({
