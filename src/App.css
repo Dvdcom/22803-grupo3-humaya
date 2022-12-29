@@ -5,8 +5,6 @@
   --color-principal:#63421e;
   --color-secundario:#bca177;
   --color-terciario:#D5AC8C;
-  
-
   --color-blanco:#ffffff;
   --color-negro:#000000;
 }
@@ -86,7 +84,46 @@
 /* ------------------------- ESTILOS DE <MAIN> ------------------------------- */
 
 
-/******** COMPONENTE ENCABEZADO : NOMBRE PERSONA *********/
+/******** COMPONENTE ENCABEZADO : Gisela Colmeiro *********/
+#portada{
+  background-image: url(../public/img/imagenPortada.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 5%;
+  height: 100vh;
+  width: 99vw;
+}
+
+#btn-presentacion{
+  font-size: 20px;
+}
+
+#btn-presentacion:hover{
+  border:none;
+  transform: translateY(4px);
+  box-shadow: 0px 0px 0px var(--color-terciario);
+}
+
+.container-text{
+  position: absolute;
+  margin-left: 20%;
+}
+
+.tituloPresentacion{
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.inicio{
+  margin: 0;
+  width: 30rem;
+  font-size: 20px;
+}
+
+.fondoTransparente{
+  background-color: transparent;
+  border: none;
+}
 
 /******** COMPONENTE SECCIONES : Juan Gabriel Chaves *********/
 
@@ -157,7 +194,7 @@
     overflow: hidden;
   }
 
-/******** COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+/******** COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
     .imgLogo {
       height: 40px;
       width: 40px;
@@ -190,29 +227,29 @@
 /******** COMPONENTE PRODUCTO SECUNDARIO : NOMBRE PERSONA *********/
 
 /******** COMPONENTE SECCION SECUNDARIA : Gisela Colmeiro *********/
-#SeccionSecundaria{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.calidadiso img{
+  margin-left: 33%;
 }
 
-/******** COMPONENTE FORMULARIO CONTACTO : SOFIA FERNANDEZ *********/
-
+/******** COMPONENTE FORMULARIO CONTACTO : Sofia Fernandez *********/
 .form-group {
   padding-left: 20%;
   padding-right: 20%;
 }
+
 .form {
   background-color: rgb(248, 250, 252);
 }
+
 .form p {
   color: var(--color-principal);
-
 }
+
 #text-name{
   color:rgb(248, 250, 252);
 } 
+
 label {
   color:var(--color-principal);
 }
@@ -222,22 +259,25 @@ label {
   border-radius: 0%;
   color:rgb(248, 250, 252);
 }
+
 .form-control:active,
 .form-control:focus {
   background-color:  rgba(40, 38, 38, 0.9); 
   color:rgb(248, 250, 252);
 }
+
 .contenedor-btn-form {
   align-items: center;
   justify-content: center;
 }
+
 .btnForm {
   background-color: rgb(248, 250, 252) !important;
   border: 1px solid var(--color-principal) !important;
-  color: var(--color-principal) !important;
-  
+  color: var(--color-principal) !important;  
 }
-/******** COMPONENTE RECETAS : DAVID GUTIERREZ *********/
+
+/******** COMPONENTE RECETAS : David Gutierrez *********/
 
 #contenedor-recetas{
     width: 100vw;
@@ -253,7 +293,6 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .carta{
@@ -334,6 +373,7 @@ label {
   padding-bottom: 40px;
   margin: 0px;
 }
+
 .swiper-pagination{
   display: flex;
   justify-content: center;
@@ -356,24 +396,27 @@ label {
   color: var(--color-blanco);
   border: 10px solid rgba(211, 170, 93, 0.233);
 }
+
 .modal-body{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0px;
 }
+
 .modal-detalle{
   display: flex;
   flex-direction: column;
   justify-content:space-between;
   font-size: 0.9rem;
   font-weight: 100;
-
 }
+
 .modal-body-superior{
   display: flex;
   flex-direction: row;
 }
+
 .modal-video{
   display: flex;
   flex-direction: column;
@@ -381,9 +424,11 @@ label {
   align-items: center;
   padding: 10px;
 }
+
 .modal-video h5{
   font-weight: 200;
 }
+
 #iframe{
   width: 90%;
 }
@@ -392,7 +437,7 @@ label {
 
 /* X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) { 
-  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
  .imgPrincipal{
    height: auto;
    width: auto;
@@ -401,7 +446,7 @@ label {
 
 @media (max-width: 790px) {
 
-   /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+   /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
    .cardPrincipal{
     width: auto;        
   }
@@ -423,7 +468,7 @@ label {
     width: auto;    
   }
 
-  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
 
   #contenedor-recetas{
     width: 100vw;
@@ -611,7 +656,7 @@ a:hover .img-mostrar {
       width: 220px ;
     }
 
-    /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+    /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
   .cardPrincipal{
     width: 87%;       
   }
@@ -629,11 +674,11 @@ a:hover .img-mostrar {
     height: auto;
     width: auto;
   }
-  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
 }
 
 @media (max-width: 426px) {
-  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
   .cardPrincipal{
     width: 58%;   
     margin: 20px;     
@@ -671,12 +716,12 @@ a:hover .img-mostrar {
     font-size: 12px;
   }
 
-  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/  
+  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/  
   
 }
 
 @media (max-width: 376px) {
-  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
   .cardPrincipal{
     width: 50%;   
     margin: 0px;           
@@ -710,11 +755,11 @@ a:hover .img-mostrar {
     font-size: 10px;
   }
   
-  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
 }
 
 @media (max-width: 321px) {
-  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : DAIANA RYAN *********/
+  /******** Media Query: COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
   .cardPrincipal{
     width: 47%;
     margin: 5px;
