@@ -104,6 +104,17 @@
   box-shadow: 0px 0px 0px var(--color-terciario);
 }
 
+/*sobre sweet alert*/
+.swal2-show{
+  border-radius: 0px !important;
+  border: 5px solid rgba(211, 170, 93, 0.238) !important;
+}
+.swal2-confirm{
+  color: #bca177 !important;
+  border-radius: 0px !important;
+  border: 2px solid var(--color-secundario) !important;
+}
+
 .container-text{
   position: absolute;
   margin-left: 20%;
