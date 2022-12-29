@@ -485,6 +485,7 @@ label {
 
   /******** Media Query: FIN DEL COMPONENTE PRODUCTO PRINCIPAL : Daiana Ryan *********/
 
+  /******** Media Query: COMPONENTE RECETAS : David Gutierrez *********/
   #contenedor-recetas{
     width: 100vw;
     height: 350px;
@@ -498,6 +499,7 @@ label {
     width: 100% !important;
     height: 100%;
     margin: 0px;
+    padding: 0px !important;;
     display: flex;
     justify-content: center;
     align-items: center;
