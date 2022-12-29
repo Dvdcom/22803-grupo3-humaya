@@ -1,7 +1,7 @@
 const ProductoPrincipal = () =>{
 
     return(        
-        <div className="container-fluid" id="ProductoPrincipal">            
+        <div id="ProductoPrincipal">            
             <div className="card text-bg-dark cardPrincipal">
                 <img src="/img/prodPrincipal.jpg" className="card-img opacity-25 img-fluid imgPrincipal mx-auto" alt="productoPrincipal" /> 
                 <div className="row gx-5">
