@@ -10,8 +10,8 @@ const ProductoPrincipal = () =>{
                             <h2 className="card-title font-secondary mt-4"><u>Promoción Combo Especial</u></h2>                                                            
                             <h1 className="display-4 colorTerciario">Cupcakes Super Cremosos</h1>                            
                             <p className="card-text">Enamorate de todos nuestros Cupcake y mini Cupcake #Crujientes y #Extrahumedos a mitad de precio </p>                            
-                            <a href="#" className="btn btn-md colorTerciario me-4 mt-4 mb-4 btnClose "><i class="fa-solid fa-cart-shopping"></i> Comprar</a>                            
-                            <a href="#" className="btn btn-md colorTerciario mb-4 mt-4 mb-4 btnClose" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Promociones</a>                            
+                            <a href="/#" className="btn btn-md colorTerciario me-4 mt-4 mb-4 btnClose "><i class="fa-solid fa-cart-shopping"></i> Comprar</a>                            
+                            <a href="/#" className="btn btn-md colorTerciario mb-4 mt-4 mb-4 btnClose" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-plus"></i> Promociones</a>                            
                         </div>
                     </div>
                 </div>
