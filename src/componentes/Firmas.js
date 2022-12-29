@@ -39,11 +39,6 @@ const Firmas = () =>{
                     <img className="img-mostrar" src='https://avatars.githubusercontent.com/u/90412515?v=4' alt="img-perfil"/>
                     <p className="nombres">Gerardo Vargas</p>
                 </a>
-                <img src="/img/git.png" className="log" alt="logo-github"/>
-                <a href="https://github.com/raquelzaballia" className="links link-secondary text-light fw-bold text-decoration-none">
-                    <img className="img-mostrar" src='https://avatars.githubusercontent.com/u/92328004?v=4' alt="img-perfil"/>
-                    <p className="nombres">Carmen Zaballia</p>
-                </a>
             </div>
         </div>
     );
