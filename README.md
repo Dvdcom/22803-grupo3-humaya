@@ -93,7 +93,7 @@ Tipo de licencia de este proyecto [MIT](https://choosealicense.com/licenses/mit/
 
 <img src="https://i.postimg.cc/hjKrBCKj/day.jpg" alt="img-perfil" width="100"/>
 
-**DAI**
+**Daiana Ryan**
 
 <img src="https://i.postimg.cc/3R9ZJgwZ/fede.jpg" alt="img-perfil" width="100"/>
 
