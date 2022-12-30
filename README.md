@@ -89,31 +89,7 @@ Tipo de licencia de este proyecto [MIT](https://choosealicense.com/licenses/mit/
 
 | **Gabriel Chaves** | **Daiana Ryan** | **Federico Altrui** | **Sofia Fernandez** | **David Gutierrez** | **Gisela Colmeiro** |
 |---|---|---|---|---|---|
-|[juan-gabriel.jpg](https://postimg.cc/0zn7js9N)|[day.jpg](https://postimg.cc/94NTPYR5)|[fede.jpg](https://postimg.cc/S229gYCX)|[sofi.jpg](https://postimg.cc/QBM1WyMJ)|[me.png](https://postimg.cc/Pv1wjG6T)|[gysela.jpg](https://postimg.cc/tZKxwRNB)|
-
-<img src="https://i.postimg.cc/q7VwmJY2/juan-gabriel.jpg" alt="img-perfil" width="100"/>
-
-**Gabriel Chaves**
-
-<img src="https://i.postimg.cc/hjKrBCKj/day.jpg" alt="img-perfil" width="100"/>
-
-**Daiana Ryan**
-
-<img src="https://i.postimg.cc/3R9ZJgwZ/fede.jpg" alt="img-perfil" width="100"/>
-
-**Federico Altrui**
-
-<img src="https://i.postimg.cc/g0VD19FQ/sofi.jpg" alt="img-perfil" width="100"/>
-
-**Sofia Fernandez**
-
-<img src="https://i.postimg.cc/XvmM92Lj/foto-perfil-arg.png" alt="img-perfil" width="100"/>
-
-**David Gutierrez**
-
-<img src="https://i.postimg.cc/8c5mFjJg/gysela.jpg" alt="img-perfil" width="100"/>
-
-**Gisela Colmeiro**
+|![](https://postimg.cc/0zn7js9N)|![](https://postimg.cc/94NTPYR5)|![](https://postimg.cc/S229gYCX)|![](https://postimg.cc/QBM1WyMJ)|![](https://postimg.cc/Pv1wjG6T)|![](https://postimg.cc/tZKxwRNB)|
 
 
 ---
