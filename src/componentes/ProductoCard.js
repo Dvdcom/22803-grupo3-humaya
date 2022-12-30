@@ -3,6 +3,7 @@ import html2canvas from "html2canvas";
 import React, { useState } from "react";
 import {Card,Button,CardImg,Modal,Figure} from 'react-bootstrap';
 
+/* creo mi react-Modal  */
 function MyVerticallyCenteredModal(props) {
 
     const descargar = (arg) => {
@@ -20,6 +21,7 @@ function MyVerticallyCenteredModal(props) {
     }
 
     return (
+        
     <Modal
         {...props}
         size="lg"
@@ -62,16 +64,22 @@ function MyVerticallyCenteredModal(props) {
 }
 
 const ProductoCard = props => {
+    /* inicializo a una variable donde guardo el props, la informacion que me entrega el padre */
     let {imgSrc,titulo, descripcion, urlReceta,receta,url_video} = props.data;
+    /* creo mis hooks de estado para el uso del modal*/
     const [modalShow, setModalShow] = useState(false);
+    /* tempData lo utilizo para guardar informacion de forma temporal */
     const [tempData,setTempdata] = useState([]);
 
+    /* creo mi funcion para poder pasar la informacion del componente al modal */
     const pasarInfo = (img, title, detalle,url,receta,video) => {
         let tempData = [img, title, detalle,url,receta,video];
         setTempdata(item => [1, ...tempData]);
         return setModalShow(true);
     }
 
+    /* retorno mi carta con la informacion que traigo de props, lo que no se ve en la carta se 
+    envia en a traves de la funcion declarada entregando por argumentos la informacion para armar el modal */
     return(
         <>
         <Card className="carta">
@@ -90,6 +98,7 @@ const ProductoCard = props => {
             </div>
 
         </Card> 
+        {/* esta informacion corresponde al modal, con esta parte del codigo paso la informacion para que se construya el modal. */}
         { modalShow === true ? <MyVerticallyCenteredModal
                 img={tempData[1]}
                 title={tempData[2]}
