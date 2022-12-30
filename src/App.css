@@ -103,8 +103,22 @@
   width: 99vw;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: none;
+  background-color: transparent;
+  /* padding: 1em; */
+  padding-right: 5%;
+  padding-top: 10%;
+  color: rgb(248, 250, 252);
+}
+
+
 #btn-presentacion{
   font-size: 20px;
+  text-align: center !important;
 }
 
 #btn-presentacion:hover{

@@ -18,15 +18,19 @@ const Encabezado = () =>{
     });
 
     return(
-        <div className="img-fluid m-0 p-0" id="portada">
-            <div className="card mt-0 mx-2 pt-4 fondoTransparente inicio">
-                <div className="card-body align-items-center my-auto mt-5 container-text">
-                    <h5 className="card-title text-white tituloPresentacion">DULCES DEL ALMA</h5>
-                    <p className="card-text mt-3 text-white">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
-                    <button href="/#" type="button" className="btn d-grid gap-2 col-8 mx-auto mt-4" id="btn-presentacion">CONOCENOS</button>
-                </div>
-            </div>
-        </div>
+          <div className="img-fluid m-0 p-0" id="portada">
+                <section class="row" >
+                    <div class="container">
+                        <div class="card-container">
+                            <div class="col-lg-5 col-md-10 col-xs-12 align-self-end card-body text-container">
+                                <h5 class="px-3 card-title-h5 card-title">DULCES DEL ALMA</h5>
+                                <p class="detail-text  card-text mt-3">Los productos HUMAYA se elaboran desde hace más de 50 años con tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de tu vida.</p>
+                                <button href="#" type="button" className='btn btn-outline-dark my-3' id="btn-presentacion ">CONOCENOS</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+             </div>
     );
 }
     
