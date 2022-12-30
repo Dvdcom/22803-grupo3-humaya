@@ -11,10 +11,10 @@ const Navegacion = () =>{
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav ">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link active" aria-current="page" href="/#">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Productos</a>
+                        <a className="nav-link" aria-current="page" href="/#">Productos</a>
                     </li>
                   </ul>
                   </div>
@@ -28,10 +28,10 @@ const Navegacion = () =>{
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav center">
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Locales</a>
+                        <a className="nav-link" aria-current="page" href="/#">Locales</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href="#">Contacto</a>
+                        <a className="nav-link" aria-current="page" href="/#">Contacto</a>
                     </li>
 
                   </ul>
