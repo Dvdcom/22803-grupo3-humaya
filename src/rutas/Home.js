@@ -5,7 +5,6 @@ import Footer from '../componentes/Footer';
 import FormContacto from '../componentes/FormContacto';
 import Navegacion from '../componentes/Navegacion';
 import ProductoPrincipal from '../componentes/ProductoPrincipal';
-import ProductoSecundario from '../componentes/ProductoSecundario';
 import Recetas from '../componentes/Recetas';
 import Secciones from '../componentes/Secciones';
 import SeccionSecundaria from '../componentes/SeccionSecundaria';
@@ -23,7 +22,6 @@ const Home = () =>{
                 <Separador/>
                 <Secciones />
                 <ProductoPrincipal />
-                <ProductoSecundario />
                 <SeccionSecundaria />
                 <FormContacto />
                 <Recetas />
