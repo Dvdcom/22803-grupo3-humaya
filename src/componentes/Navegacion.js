@@ -21,7 +21,7 @@ const Navegacion = () =>{
                     <div className="d-flex m-3 align-items-center">
                         
                             <a className="mr-0" href="#Home">
-                            <img src="https://i.postimg.cc/fysypQ8G/Logo-Humaya100x100.png" alt="logo" width="120" height="120" class="d-inline-block align-text-top"/>
+                            <img src="https://i.postimg.cc/fysypQ8G/Logo-Humaya100x100.png" alt="logo" width="120" height="120" className="d-inline-block align-text-top"/>
                             </a>
                        
                     </div>
