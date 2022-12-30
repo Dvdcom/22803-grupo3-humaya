@@ -89,7 +89,13 @@ Tipo de licencia de este proyecto [MIT](https://choosealicense.com/licenses/mit/
 
 | **Gabriel Chaves** | **Daiana Ryan** | **Federico Altrui** | **Sofia Fernandez** | **David Gutierrez** | **Gisela Colmeiro** |
 |---|---|---|---|---|---|
-|[](https://postimg.cc/0zn7js9N)|[](https://postimg.cc/94NTPYR5)|[](https://postimg.cc/S229gYCX)|[](https://postimg.cc/QBM1WyMJ)|[](https://postimg.cc/Pv1wjG6T)|[](https://postimg.cc/tZKxwRNB)|
+|<img src="https://i.postimg.cc/q7VwmJY2/juan-gabriel.jpg" alt="imgPerfil"></img>|<img src="https://i.postimg.cc/hjKrBCKj/day.jpg" alt="imgPerfil"></img>|<img src="https://i.postimg.cc/3R9ZJgwZ/fede.jpg" alt="imgPerfil"></img>|<img src="https://i.postimg.cc/g0VD19FQ/sofi.jpg" alt="imgPerfil"></img>|<img src="https://i.postimg.cc/BbVc24HL/me.png" alt="imgPerfil"></img>|<img src="https://i.postimg.cc/8c5mFjJg/gysela.jpg" alt="imgPerfil"></img>|
+
+
+
+
+
+
 
 
 ---
