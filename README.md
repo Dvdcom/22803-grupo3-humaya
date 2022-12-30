@@ -7,7 +7,7 @@ Como idea principal la misma se penso con estilo OnePage, pero puede ser optimiz
 
 ### <img src="https://i.postimg.cc/LXJX7gQ5/pc.png" alt="img-pc" width="24"/> PRIMER VISUALIZACION CONCEPTO
 
-![](https://i.postimg.cc/6Q0L6djp/humaya-prev.png)
+<img src="https://i.postimg.cc/6Q0L6djp/humaya-prev.png" alt="imgPrev"></img>
 
 
 ---
