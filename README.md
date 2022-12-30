@@ -87,6 +87,10 @@ Tipo de licencia de este proyecto [MIT](https://choosealicense.com/licenses/mit/
 
 ### <img src="https://i.postimg.cc/VkzNwVZ3/person.png" alt="img-licencia" width="24"/> COLABORADORES
 
+| **Gabriel Chaves** | **Daiana Ryan** | **Federico Altrui** | **Sofia Fernandez** | **David Gutierrez** | **Gisela Colmeiro** |
+|---|---|---|---|---|---|
+|[juan-gabriel.jpg](https://postimg.cc/0zn7js9N)|[day.jpg](https://postimg.cc/94NTPYR5)|[fede.jpg](https://postimg.cc/S229gYCX)|[sofi.jpg](https://postimg.cc/QBM1WyMJ)|[me.png](https://postimg.cc/Pv1wjG6T)|[gysela.jpg](https://postimg.cc/tZKxwRNB)|
+
 <img src="https://i.postimg.cc/q7VwmJY2/juan-gabriel.jpg" alt="img-perfil" width="100"/>
 
 **Gabriel Chaves**
