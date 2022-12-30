@@ -28,6 +28,7 @@
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 .Seccion{
@@ -82,10 +83,11 @@
 /*estilo momentaneo*/
 #Navegacion{
   position: absolute;
-  top:1%;
+  top:5%;
   left: 15%;
   width: 70%;
   height: 50px;
+  background: transparent !important;
 }
 
 /* ------------------------- ESTILOS DE <MAIN> ------------------------------- */
