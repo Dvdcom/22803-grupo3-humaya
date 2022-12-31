@@ -19,12 +19,12 @@ const Encabezado = () =>{
 
     return(
           <div className="img-fluid m-0 p-0" id="portada">
-                <section class="row" >
-                    <div class="container">
-                        <div class="card-container">
-                            <div class="col-lg-5 col-md-10 col-xs-12 align-self-end card-body text-container">
-                                <h5 class="px-3 card-title-h5 card-title">DULCES DEL ALMA</h5>
-                                <p class="detail-text  card-text mt-3">Los productos HUMAYA se elaboran desde hace más de 50 años con tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de tu vida.</p>
+                <section className="row" >
+                    <div className="container">
+                        <div className="card-container">
+                            <div className="col-lg-5 col-md-10 col-xs-12 align-self-end card-body text-container">
+                                <h5 className="px-3 card-title-h5 card-title">DULCES DEL ALMA</h5>
+                                <p className="detail-text  card-text mt-3">Los productos HUMAYA se elaboran desde hace más de 50 años con tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de tu vida.</p>
                                 <button href="#" type="button" className='btn btn-outline-dark my-3' id="btn-presentacion ">CONOCENOS</button>
                             </div>
                         </div>

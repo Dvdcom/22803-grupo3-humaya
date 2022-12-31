@@ -104,7 +104,7 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   border: none;
   background-color: transparent;
   padding-right: 5%;
