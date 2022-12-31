@@ -5,11 +5,6 @@ const Firmas = () =>{
             <hr/>
             <div className="contenedor-firmas">
                 <img src="/img/git.png" className="log" alt="logo-github"/>
-                <a href="https://github.com/Fedealtrui" className="links link-secondary text-light fw-bold text-decoration-none">
-                    <img className="img-mostrar" src='https://avatars.githubusercontent.com/u/82673183?v=4' alt="img-perfil"/>
-                    <p className="nombres">Federico Altrui</p> 
-                </a>
-                <img src="/img/git.png" className="log" alt="logo-github"/>
                 <a href="https://github.com/gissestephy" className="links link-secondary text-light fw-bold text-decoration-none">
                     <img className="img-mostrar" src='https://avatars.githubusercontent.com/u/103209971?v=4' alt="img-perfil"/>
                     <p className="nombres">Gisela Colmeiro</p>
