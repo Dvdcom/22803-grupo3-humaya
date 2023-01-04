@@ -1,7 +1,7 @@
 /* import 'bootstrap/dist/css/bootstrap.min.css'; */
 import html2canvas from "html2canvas";
 import React, { useState } from "react";
-import {Card,Button,CardImg,Modal,Figure} from 'react-bootstrap';
+import {Card,Button,CardImg,Modal, Figure} from 'react-bootstrap';
 
 /* creo mi react-Modal  */
 function MyVerticallyCenteredModal(props) {
@@ -43,7 +43,22 @@ function MyVerticallyCenteredModal(props) {
                             {props.detalle}
                         </p>
                     <div id="descargable" className="d-none">
-                        <Figure.Image src={props.receta} alt="receta"></Figure.Image>
+                        <Figure.Caption className="receta-texto">
+                            <h1>{props.receta.titulo}</h1>
+                            <h5 className="text-uppercase">{props.receta.subtitulo}</h5>
+                            <ul>
+                                {props.receta.ingredientes.map((element,index)=> (
+                                    <li key={index}>{element}</li>
+                                ))}
+                            </ul>
+                            <h5 className="text-uppercase">{props.receta.subtitulo2}</h5>
+                            <ol className="pasos">
+                                {props.receta.pasos.map((element,index)=> (
+                                    <li key={index}>{element}</li>
+                                ))}
+                            </ol>
+                        </Figure.Caption>
+
                     </div>
                     <div className="btnCardContenedor">
                     <Button className="btnCard"><a className="text-decoration-none text-reset" href={props.url} target="_blank" rel="noreferrer noopener">En Web</a></Button>

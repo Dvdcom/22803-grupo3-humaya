@@ -18,7 +18,7 @@ const Encabezado = () =>{
     });
 
     return(
-          <div className="img-fluid m-0 p-0" id="portada">
+        <div className="img-fluid m-0 p-0" id="portada">
                 <section className="row" >
                     <div className="container">
                         <div className="card-container">
@@ -30,7 +30,7 @@ const Encabezado = () =>{
                         </div>
                     </div>
                 </section>
-             </div>
+        </div>
     );
 }
     

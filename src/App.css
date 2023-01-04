@@ -471,6 +471,26 @@ label {
   width: 90%;
 }
 
+#descargable{
+  background-image: url("https://i.postimg.cc/PJPk8x8Y/Recetario-Plantilla.png");
+  width: 557px;
+  height: 800px;
+}
+
+.receta-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-blanco);
+  margin-top: 30px;
+}
+
+.pasos{
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
 /* ------ MEDIA QUERY -----*/
 
 /* X-Large devices (large desktops, less than 1400px)*/
@@ -632,6 +652,7 @@ label {
     font-weight: 100;
   
   }
+
 }
 
 /* ------------------------- ESTILOS DE <FOOTER> ------------------------------- */
