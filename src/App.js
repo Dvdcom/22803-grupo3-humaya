@@ -9,6 +9,7 @@ import ProductoPrincipal from './componentes/ProductoPrincipal';
 import ProductoSecundario from './componentes/ProductoSecundario';
 import Recetas from './componentes/Recetas';
 import Secciones from './componentes/Secciones';
+import Seccion from './componentes/Seccion';
 import SeccionSecundaria from './componentes/SeccionSecundaria';
 import { UserProvider } from './aplication/UserProvider';
 
@@ -26,6 +27,7 @@ function App() {
             <main>
               <Encabezado/>
               <Secciones />
+              <Seccion />
               <ProductoPrincipal />
               <ProductoSecundario />
               <SeccionSecundaria />
