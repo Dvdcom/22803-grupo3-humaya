@@ -46,7 +46,7 @@ function MyVerticallyCenteredModal(props) {
                         <Figure.Caption className="receta-texto">
                             <h1>{props.receta.titulo}</h1>
                             <h5 className="text-uppercase">{props.receta.subtitulo}</h5>
-                            <ul>
+                            <ul className="pasos">
                                 {props.receta.ingredientes.map((element,index)=> (
                                     <li key={index}>{element}</li>
                                 ))}
@@ -54,9 +54,11 @@ function MyVerticallyCenteredModal(props) {
                             <h5 className="text-uppercase">{props.receta.subtitulo2}</h5>
                             <ol className="pasos">
                                 {props.receta.pasos.map((element,index)=> (
-                                    <li key={index}>{element}</li>
+                                    element.includes("---") ? <li key={index} className="separador">{element}</li> :
+                                    <li key={index}>{element}</li> 
                                 ))}
                             </ol>
+                            <p className="fst-italic mt-4">Receta cortecia de humaya.com.ar</p>
                         </Figure.Caption>
 
                     </div>
