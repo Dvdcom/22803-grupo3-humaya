@@ -18,7 +18,7 @@ Este proyecto fue iniciado con [Create React App](https://github.com/facebook/cr
 
 ### <img src="https://i.postimg.cc/9MsMjXsp/install.png" alt="img-install" width="24"/> INSTALACION
 
-1. Clona el repostorio en tu equipo con este [enlace](https://github.com/Dvdcom/calculadora-react.git "enlace")
+1. Clona el repostorio en tu equipo con este [enlace](https://github.com/Dvdcom/22803-grupo3-humaya.git "enlace")
 2. Instala las dependencias con el comando `npm i`
 
 _el proyecto quedara listo para ser ejecutado._
