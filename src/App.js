@@ -1,5 +1,4 @@
 import './App.css';
-import Logito from './componentes/Logito';
 import Firmas from './componentes/Firmas';
 import Footer from './componentes/Footer';
 import Navegacion from './componentes/Navegacion';
@@ -14,7 +13,6 @@ function App() {
     <UserProvider>
           <div className="App">
             <header className="App-header">
-              <Logito/>
               <Navegacion />
             </header>
             <main>
