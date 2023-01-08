@@ -19,11 +19,13 @@ function CrearSeccionSimple(arg, index) {
 function CrearSeccionCard(arg, index) {
     return (
         <section key={index}>
-            <Card style={{ width: '18rem' }} className={arg.classTipo}>
-                <Card.Img className={arg.classImage} variant="top" src={arg.imagen} />
+            <Card style={{ width: '18.1rem' }} className={arg.classTipo}>
+                <Card.Img style={{ width: '18rem' }} className={arg.classImage} variant="top" src={arg.imagen} />
                 <Card.Body className={arg.classBody}>
                     <Card.Title className={arg.classTitulo}>{arg.titulo}</Card.Title>
                     <Card.Text className={arg.classTexto}>{arg.texto}</Card.Text>
+                    <Card.Text className={arg.classTexto2}>{arg.texto2}</Card.Text>
+                    <Card.Text className={arg.classPrecio}>{arg.precio}</Card.Text>
                     <Button variant="primary" className={arg.classBoton}>{arg.boton}</Button>
                 </Card.Body>
             </Card>
@@ -42,10 +44,10 @@ const CrearSeccion = () => {
                     return (CrearSeccionSimple(element, index))
                 }
             }
-            )};
+            )}
         </>
-    );
-};
+    )
+}
 
 export default CrearSeccion;
 
