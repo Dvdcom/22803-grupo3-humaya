@@ -3,7 +3,7 @@
 const Navegacion = () => {
 
     return (
-        <div className='Seccion Seccion-fondo' id='Navegacion'>
+        <div id='Navegacion'>
             <nav className="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
                 <div className="container">
 

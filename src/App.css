@@ -38,47 +38,69 @@
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
 
 .App-header {
-  background-color: var(--color-negro);
+  width: 100%;
+  position: fixed;
+}
+
+#Navegacion{
   display: flex;
-  flex-direction: column;
-}
-
-
-.App-logo {
-  height: 2vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: center;
 }
 
 /******** COMPONENTE NAVEGACION : NOMBRE PERSONA *********/
 
 
-/* ------------------------- ESTILOS DE <MAIN> ------------------------------- */
+/******** COMPONENTE SECCION SIMPLE ENCABEZADO : NOMBRE PERSONA *********/
+.Encabezado{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-height: 683px;
+}
+
+.PosAbsolute{
+  position: absolute;
+}
+
+.Titulo{
+  color: var(--color-blanco);
+  margin-left: 10%;
+  margin-top: 20%;
+  font-weight: 200;
+}
+
+.Texto1{
+  color: var(--color-blanco);
+  margin-left: 10%;
+  margin-top: 25%;
+  width: 30%;
+}
+
+.Image{
+  width: 100%;
+}
 
 
-/******** COMPONENTE ENCABEZADO : NOMBRE PERSONA *********/
 
-/******** COMPONENTE SECCIONES : NOMBRE PERSONA *********/
+/******** COMPONENTE SECCION CARD : NOMBRE PERSONA *********/
 
-/******** COMPONENTE PRODUCTO PRINCIPAL : NOMBRE PERSONA *********/
+/******** COMPONENTE SECCION CARD INVERTIDO: NOMBRE PERSONA *********/
 
-/******** COMPONENTE PRODUCTO SECUNDARIO : NOMBRE PERSONA *********/
+/******** COMPONENTE SECCION SIMPLE SEPARADOR : NOMBRE PERSONA *********/
 
-/******** COMPONENTE SECCION SECUNDARIA : NOMBRE PERSONA *********/
+.Separador{
+  color: var(--color-blanco);
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.TituloSeparador{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/******** COMPONENTE SECCION SIMPLE SECUNDARIA : NOMBRE PERSONA *********/
 
 /******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
 

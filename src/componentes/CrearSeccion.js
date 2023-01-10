@@ -10,7 +10,9 @@ function CrearSeccionSimple(arg, index) {
             <div className={arg.classTipo}>
                 <h3 className={arg.classTitulo}>{arg.titulo}</h3>
                 <p className={arg.classTexto}>{arg.texto}</p>
+                <p className={arg.classTexto2}>{arg.texto2}</p>
                 <img className={arg.classImage} src={arg.imagen} alt='img'></img>
+                <button className={arg.classBoton}>{arg.boton}</button>
             </div>
         </section>
     )

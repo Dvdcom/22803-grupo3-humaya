@@ -1,23 +1,31 @@
 export const contenido = [
     {
         tipo: "ss",
-        classTipo: "Class1 text-white",
+        classTipo: "Encabezado",
         titulo: "DULCES DEL ALMA",
-        classTitulo: "Class2",
+        classTitulo: "PosAbsolute Titulo",
         texto: "Los productos HUMAYA se elaboran desde hace más de 50 años con tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de tu vida.",
-        classTexto: "Class3",
+        classTexto: "PosAbsolute Texto1",
+        texto2: "",
+        classTexto2: "d-none",
         imagen: "https://i.postimg.cc/T25cXVCQ/imagen-Central2.jpg",
-        classImage: "Class4",
+        classImage: "Image",
+        boton: "",
+        classBoton: "d-none"
     },
     {
         tipo: "ss",
-        classTipo: "",
+        classTipo: "Separador",
         titulo: "Manjares",
-        classTitulo: "Class2",
+        classTitulo: "TituloSeparador",
         texto: "",
         classTexto: "d-none",
+        texto2: "",
+        classTexto2: "d-none",
         imagen: "#",
         classImage: "d-none",
+        boton: "",
+        classBoton: "d-none"
     },
     {
         tipo: "card",
@@ -90,22 +98,36 @@ export const contenido = [
     {
         tipo: "ss",
         classTipo: "Class1 text-white",
-        titulo: "La mejor calidad solo para vos",
+        titulo: "ALFAJORES DE MAICENA",
         classTitulo: "Class2",
-        texto: "",
-        classTexto: "d-none",
-        imagen: "https://i.postimg.cc/gkBtKzSB/Calidad.png",
+        texto: "Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura.Pudiendo elegir entre dulce de leche tradicional, light o choconutt.",
+        classTexto: "Class3",
+        texto2: "Presentación en caja de 6 y 12 alfajores.",
+        classTexto2: "Class5",
+        imagen: "https://i.postimg.cc/BnrhdhGT/Producto-Destacado-Desktop.png",
         classImage: "Class4",
+        boton: "agregar al carrito",
+        classBoton: "Class5"
     },
     {
         tipo: "ss",
-        classTipo: "",
-        titulo: "contacto",
+        classTipo: "Class1 text-white",
+        titulo: "La mejor calidad solo para vos",
         classTitulo: "Class2",
-        texto: "",
-        classTexto: "d-none",
+        imagen: "https://i.postimg.cc/gkBtKzSB/Calidad.png",
+        classImage: "Class4",
+        boton: "",
+        classBoton: "d-none"
+    },
+    {
+        tipo: "ss",
+        classTipo: "Separador",
+        titulo: "contacto",
+        classTitulo: "TituloSeparador",
         imagen: "#",
         classImage: "d-none",
+        boton: "",
+        classBoton: "d-none"
     },
 
 ];
