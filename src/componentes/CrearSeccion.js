@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 function CrearSeccionSimple(arg, index) {
     return (
-        <section key={index}>
+        <section key={index} className={arg.classSection}>
             <div className={arg.classTipo}>
                 <h3 className={arg.classTitulo}>{arg.titulo}</h3>
                 <p className={arg.classTexto}>{arg.texto}</p>
@@ -20,7 +20,7 @@ function CrearSeccionSimple(arg, index) {
 
 function CrearSeccionCard(arg, index) {
     return (
-        <section key={index}>
+        <section key={index} className={arg.classSection}>
             <Card style={{ width: '18.1rem' }} className={arg.classTipo}>
                 <Card.Img style={{ width: '18rem' }} className={arg.classImage} variant="top" src={arg.imagen} />
                 <Card.Body className={arg.classBody}>

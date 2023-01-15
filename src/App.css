@@ -23,18 +23,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.Seccion{
-  display: flex;
-  height: calc(100vh/9);
-  width: 100%;
-  background-color: rgb(70, 81, 90,20%);
-  margin-bottom: 10px;
-  justify-content: center;
-  align-items: center;
-  color: var(--color-opcional);
-  font-style: italic;
-}
-
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
 
 .App-header {
@@ -51,6 +39,7 @@
 
 
 /******** COMPONENTE SECCION SIMPLE ENCABEZADO : NOMBRE PERSONA *********/
+
 .Encabezado{
   width: 100%;
   display: flex;
@@ -82,11 +71,15 @@
 
 
 
+
 /******** COMPONENTE SECCION CARD : NOMBRE PERSONA *********/
 
 /******** COMPONENTE SECCION CARD INVERTIDO: NOMBRE PERSONA *********/
 
 /******** COMPONENTE SECCION SIMPLE SEPARADOR : NOMBRE PERSONA *********/
+.ContentSection{
+  position: relative;
+}
 
 .Separador{
   color: var(--color-blanco);

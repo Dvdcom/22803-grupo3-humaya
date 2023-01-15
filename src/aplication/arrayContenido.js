@@ -1,5 +1,6 @@
 export const contenido = [
     {
+        classSection:"SeccionEncabezado",
         tipo: "ss",
         classTipo: "Encabezado",
         titulo: "DULCES DEL ALMA",
@@ -14,6 +15,7 @@ export const contenido = [
         classBoton: "d-none"
     },
     {
+        classSection:"ContentSection",
         tipo: "ss",
         classTipo: "Separador",
         titulo: "Manjares",
@@ -28,6 +30,7 @@ export const contenido = [
         classBoton: "d-none"
     },
     {
+        classSection:"Class0",
         tipo: "card",
         classTipo: "Class1",
         titulo: "ALFAJORES DE DULCE DE LECHE TRADICIONALES",
@@ -45,6 +48,7 @@ export const contenido = [
         classBody: "classBody",
     },
     {
+        classSection:"Class0",
         tipo: "card",
         classTipo: "Class1",
         titulo: "DULCE DE LECHE TRADICIONAL",
@@ -62,6 +66,7 @@ export const contenido = [
         classBody: "classBody",
     },
     {
+        classSection:"Class0",
         tipo: "card",
         classTipo: "Class1",
         titulo: "TAPAS DE MAIZENA PARA RELLENAR",
@@ -79,6 +84,7 @@ export const contenido = [
         classBody: "classBody",
     },
     {
+        classSection:"Class0",
         tipo: "card",
         classTipo: "Class1",
         titulo: "Cupcakes Super Cremosos",
@@ -96,6 +102,7 @@ export const contenido = [
         classBody: "classBody",
     },
     {
+        classSection:"Class0",
         tipo: "ss",
         classTipo: "Class1 text-white",
         titulo: "ALFAJORES DE MAICENA",
@@ -110,6 +117,7 @@ export const contenido = [
         classBoton: "Class5"
     },
     {
+        classSection:"Class0",
         tipo: "ss",
         classTipo: "Class1 text-white",
         titulo: "La mejor calidad solo para vos",
@@ -120,6 +128,7 @@ export const contenido = [
         classBoton: "d-none"
     },
     {
+        classSection:"Class0",
         tipo: "ss",
         classTipo: "Separador",
         titulo: "contacto",
