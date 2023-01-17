@@ -14,6 +14,10 @@
 
 
 /* ---------------------------- ESTILOS DE <DIV> APP --------------------- */
+body{
+  margin: 0;
+  padding: 0;
+}
 
 .App{
   background-color: var(--color-negro);
@@ -27,7 +31,7 @@
 
 .App-header {
   width: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 #Navegacion{
@@ -40,50 +44,49 @@
 
 /******** COMPONENTE SECCION SIMPLE ENCABEZADO : NOMBRE PERSONA *********/
 
-.Encabezado{
+.SeccionEncabezado{
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-height: 683px;
-}
 
-.PosAbsolute{
+}
+.Encabezado{
   position: absolute;
+  width: 50%;
+  margin-top: 18%;
+  margin-left: 5%;
 }
 
 .Titulo{
   color: var(--color-blanco);
-  margin-left: 10%;
-  margin-top: 20%;
   font-weight: 200;
+  font-size: 4vw;
 }
 
 .Texto1{
+  margin-top: 20px;
   color: var(--color-blanco);
-  margin-left: 10%;
-  margin-top: 25%;
-  width: 30%;
+  font-size: 1.8vw;
+  font-weight: 200;
 }
+
 
 .Image{
   width: 100%;
+
 }
 
-
-
-
-/******** COMPONENTE SECCION CARD : NOMBRE PERSONA *********/
-
-/******** COMPONENTE SECCION CARD INVERTIDO: NOMBRE PERSONA *********/
-
 /******** COMPONENTE SECCION SIMPLE SEPARADOR : NOMBRE PERSONA *********/
-.ContentSection{
+.SeccionSeparador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 }
 
 .Separador{
   color: var(--color-blanco);
-  width: 100%;
+  width: 100vw;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -93,6 +96,82 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/******** COMPONENTE SECCION CARD : NOMBRE PERSONA *********/
+.SeccionCard{
+  width: 100vw;
+  max-height: 600px;
+}
+
+.Carta{
+  border: 0px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  background-color:transparent;
+  color: var(--color-blanco);
+}
+
+.TituloCard{
+  color: var(--color-secundario);
+  font-size: 2em;
+}
+
+.TextoCard1{
+  color: var(--color-blanco);
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.TextoCard2{
+  color: var(--color-terciario);
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.PrecioCard{
+  font-weight: 800;
+  font-size: 1.8vw;
+  color: var(--color-terciario);
+  margin-bottom: 35px;
+}
+
+.ImageCarta{
+  border-radius: 0px;
+  max-height: 600px;
+  width: 50vw;
+}
+
+.btnCard{
+  border: 3px solid var(--color-secundario);
+  border-radius: 0px;
+  background-color:transparent;
+  color: var(--color-secundario);
+  font-weight: 600;
+}
+
+.BodyCard{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  max-width: 50vw;
+}
+
+/******** COMPONENTE SECCION CARD INVERTIDO: NOMBRE PERSONA *********/
+
+.CartaInverter{
+  border: 0px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color:transparent;
+  color: var(--color-blanco);
+}
+
 /******** COMPONENTE SECCION SIMPLE SECUNDARIA : NOMBRE PERSONA *********/
 
 /******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
