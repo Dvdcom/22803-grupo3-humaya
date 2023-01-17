@@ -25,6 +25,8 @@ body{
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  width: 1280px;  
 }
 
 /* ---------------------------- ESTILOS DE <HEADER> --------------------- */
@@ -172,7 +174,43 @@ body{
   color: var(--color-blanco);
 }
 
+/******** COMPONENTE PRINCIPAL *********/
+
+.BodyCardPromo{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  max-width: 50vw;
+  border: 2px solid var(--color-blanco);
+}
+
+.CartaPromo{
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageCartaPromo{
+  opacity: 0.4;
+}
+
+.posRelative{
+  position: relative;
+}
+
+
 /******** COMPONENTE SECCION SIMPLE SECUNDARIA : NOMBRE PERSONA *********/
+
+.SeccionCalidad{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /******** COMPONENTE FORMULARIO CONTACTO : NOMBRE PERSONA *********/
 
